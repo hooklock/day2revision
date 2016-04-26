@@ -48,4 +48,13 @@ def number_to_short_month_name(num)
   elsif num == 9
     return "Sep"
   end
-end 
+end
+
+def volume(height, width, depth)
+  return height*width*depth
+end
+
+def sphere_volume(radius)
+  return 4.082 * (radius ** 3)
+end
+
