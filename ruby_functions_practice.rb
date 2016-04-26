@@ -63,3 +63,7 @@ end
 def days_until(year, month, day)
   return Date.new(2016,12,25) - Date.new(year, month, day)
 end
+
+def days_since(year, month, day)
+  return Date.new(2016, 04, 26) - Date.new(year, month, day)
+end
