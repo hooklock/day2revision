@@ -1,3 +1,5 @@
+require 'date'
+
 def return_10()
   return 10
 end
@@ -58,3 +60,6 @@ def sphere_volume(radius)
   return 4.082 * (radius ** 3)
 end
 
+def days_until(year, month, day)
+  return Date.new(2016,12,25) - Date.new(year, month, day)
+end
